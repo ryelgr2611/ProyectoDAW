@@ -1,17 +1,3 @@
-@import url('https://fonts.cdnfonts.com/css/alegreya-sans-sc');@import url('https://fonts.cdnfonts.com/css/madness-hyperactive');
-#colors{
-    --white: #fefefeff;
-    --vanilla: #ddca8fff;
-    --chamoisee: #9f815fff;
-    --yinmn-blue: #2d5588ff;
-    --jasper: #d34f4aff;
-  }
-body{
-    background-image: linear-gradient(to bottom, #fefefeff, #ddca8fff);
-    min-height: 100vh;
-    font-family: 'Alegreya Sans SC', sans-serif;                                  
-    font-weight: bolder;
-}
 .btn{
     background-color: #2d5588ff;
     border-color: #9f815fff;

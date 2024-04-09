@@ -1,0 +1,63 @@
+/* Estilos para el encabezado */
+.header-area {
+    background-color: #fff; /* Color de fondo del encabezado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%; /* Ajustar el tamaño máximo del logo */
+}
+
+.menu-main {
+    display: flex;
+    align-items: center;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 20px; /* Espacio entre elementos del menú */
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: #333; /* Color del texto del menú */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+.main-menu ul li a:hover {
+    color: #d34f4aff; /* Color del texto al pasar el ratón */
+    font-weight: bolder;
+}
+
+.header-right-btn a.btn {
+    text-decoration: none;
+    color: #fff; /* Color del texto del botón */
+    background-color: #d34f4aff; /* Color de fondo del botón */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    border-radius: 5px; /* Borde redondeado */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.header-right-btn a.btn:hover {
+    background-color: rgb(128, 65, 63); /* Color de fondo al pasar el ratón */
+}
+#colors{
+    --white: #fefefeff;
+    --vanilla: #ddca8fff;
+    --chamoisee: #9f815fff;
+    --yinmn-blue: #2d5588ff;
+    --jasper: #d34f4aff;
+  }
