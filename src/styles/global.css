@@ -9,6 +9,7 @@
 body{
     background-image: linear-gradient(to bottom, #fefefeff, #ddca8fff);
     min-height: 100vh;
-    font-family: 'Alegreya Sans SC', sans-serif;                                  
+    font-family: 'Alegreya Sans SC', sans-serif;    
+    text-shadow:  -0.5px -0.5px #000000, 1px -0.5px #000000, 1px 0.5px #000000;
     font-weight: bolder;
 }

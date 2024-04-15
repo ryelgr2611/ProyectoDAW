@@ -1,6 +1,6 @@
 /* Estilos para el encabezado */
 nav {
-    background-color: rgb(237, 230, 210);
+    background-color: rgba(232, 207, 178, 0.651);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0;
     width: 100%;
@@ -11,11 +11,11 @@ nav {
     width:250px ;
 }
 .navbar-nav .nav-link {
-    color: black; 
+    color: rgb(255, 255, 255); 
     font-weight: bold;
 }
 .nav-link:hover{
-    color:#d34f4aff;
+    color:rgb(245, 149, 146);
 }
 .navbar-toggler:focus {
     box-shadow: none;
