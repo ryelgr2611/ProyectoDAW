@@ -1,58 +1,69 @@
 /* Estilos para el encabezado */
-.header-area {
-    background-color: #fff; /* Color de fondo del encabezado */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
-}
-
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
-    max-width: 100%; /* Ajustar el tamaño máximo del logo */
-}
-
-.menu-main {
-    display: flex;
-    align-items: center;
-}
-
-.main-menu ul {
-    margin: 0;
+nav {
+    background-color: rgb(237, 230, 210);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0;
-    list-style: none;
+    width: 100%;
+    z-index: 1000;
+    font-size: larger;
 }
-
-.main-menu ul li {
-    display: inline-block;
-    margin-left: 20px; /* Espacio entre elementos del menú */
+.navbar-brand {
+    width:250px ;
 }
-
-.main-menu ul li a {
-    text-decoration: none;
-    color: #333; /* Color del texto del menú */
+.navbar-nav .nav-link {
+    color: black; 
     font-weight: bold;
-    transition: color 0.3s ease; /* Transición suave */
+}
+.nav-link:hover{
+    color:#d34f4aff;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.dropdown-menu.show {
+    display: flex;
+    justify-content: center;
 }
 
-.main-menu ul li a:hover {
-    color: #d34f4aff; /* Color del texto al pasar el ratón */
-    font-weight: bolder;
+.text-look{
+    color: #d34f4aff !important;
 }
-
-.header-right-btn a.btn {
-    text-decoration: none;
-    color: #fff; /* Color del texto del botón */
-    background-color: #d34f4aff; /* Color de fondo del botón */
-    padding: 10px 20px; /* Espaciado dentro del botón */
-    border-radius: 5px; /* Borde redondeado */
-    transition: background-color 0.3s ease; /* Transición suave */
+.text-look:active{
+    color: #2d5588ff !important;
 }
+#contDispositivos{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 992px) {
+    .navbar.sticky-lg-top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1020;
+    }
+  }
 
-.header-right-btn a.btn:hover {
-    background-color: rgb(128, 65, 63); /* Color de fondo al pasar el ratón */
+@media(max-width: 991px){
+    .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+}
+@media (max-width: 650px) {
+    #contDispositivos{
+        width: 500px;
+        
+    }
+}
+@media (max-width: 550px) {
+    #contDispositivos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
 }
 #colors{
     --white: #fefefeff;

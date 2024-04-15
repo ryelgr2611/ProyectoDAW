@@ -12,48 +12,59 @@
     <link rel="icon" href="../../logos/logoLB.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <!--? Header Start -->
-        <div class="header-area pt-20">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <!-- Logo -->
-                        <div class="col-xl-2 col-lg-2 col-md-1">
-                            <div class="logo">
-                                <a href="index.html"><img src="../../logos/logoCompleto.png" alt="" class="w-50"></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-10">
-                            <div class="menu-main d-flex align-items-center justify-content-between ">
-                                <!-- Main-menu -->
-                                <div class="main-menu d-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li class="active"><a href="index.html">Inicio</a></li>
-                                            <li><a href="about.html">Sobre Nosotros</a></li>
-                                            <li><a href="services.html">Servicios</a></li>
-                                            <li><a href="portfolio.html">Opiniones</a></li>
-                                            <li><a href="blog.html">Ayuda</a>
-                                            </li>
-                                            <li><a href="contact.html">Contacto</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="header-right-btn d-block justify-content-end">
-                                    <a href="form.html" class="btn header-btn">Iniciar Sesión</a>
+    <nav class="navbar navbar-expand-lg m-0 sticky-lg-top">
+        <div class="container-fluid m-0">
+            <!-- Logo o marca -->
+            <a class="navbar-brand ms-1 " href="#">
+                <img src="../../logos/logoCompleto.png" alt="" class="w-50">
+            </a>
+            <!-- Botón para mostrar o esconder el menú en dispositivos pequeños -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar">
+                <i class="bi bi-list text-look"></i>
+            </span>
+            </button>
+            <!-- Contenedor del menú -->
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav mx-auto fs-lg-4 fs-md-4 fs-sm-4">
+                <!-- Elementos de menú -->
+                <li class="nav-item m-xxl-4 m-xl-0">
+                    <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item m-xxl-4 m-xl-0">
+                    <div class="dropdown"> <!-- Agregamos un contenedor dropdown -->
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="dispositivosDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dispositivos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dispositivosDropdown"> <!-- Submenú -->
+                            <div class="d-flex justify-content-center ">
+                                <div class="row justify-content-center "  id="contDispositivos">
+
                                 </div>
                             </div>
-                        </div>   
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
+                        </ul>
                     </div>
-                </div>
+                </li>
+                <li class="nav-item m-xxl-4 m-xl-0">
+                    <a class="nav-link" href="nuestrasFundas.html">Nuestras Fundas</a>
+                </li>
+                <li class="nav-item m-xxl-4 m-xl-0 ">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                
+            </ul>
+            <ul class="navbar-nav mx-auto d-flex justify-content-between fs-lg-4 fs-md-4 fs-sm-4">
+                <li class="nav-item m-xxl-4 m-xl-0">
+                    <a class="nav-link" href="login.html">
+                        <i class="bi bi-door-open-fill"></i>
+                        Iniciar Sesión
+                    </a>
+                </li>
+            </ul>
             </div>
         </div>
-        <!-- Header End -->
-    </header>
+    </nav>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
